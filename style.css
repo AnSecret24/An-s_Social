@@ -59,7 +59,6 @@ nav
     border: 0;
     background: transparent;
     padding: 10px;
-    font-size: 16px;
     outline: none;
 }
 .online{
@@ -86,14 +85,17 @@ nav
     position: sticky;
     top: 70px;
     align-self: flex-start;
-   
 }
 .right-sidebar{
     flex-basis: 25%;
     position: sticky;
     top: 70px;
     align-self: flex-start;
- 
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    color: #626262;
+
 }
 .main-content{
     flex-basis: 47%;
@@ -125,4 +127,15 @@ nav
     margin: 25px 0;
     font-weight: 500;
     color: #626262;
+}
+.left-sidebar{
+    margin-bottom: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sidebar-title a{
+    text-decoration: none;
+    color: #1876f2;
+    font-size: 12px;
 }
